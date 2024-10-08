@@ -2,7 +2,7 @@ using CalculatorApi.Interfaces;
 
 namespace CalculatorApi.Services
 {
-    public class CalculatorService : CalculatorServiceInterface<double>
+    public class CalculatorService : ICalculatorService<double>
     {
         public double Add(double a, double b)
         {

@@ -1,6 +1,6 @@
 namespace CalculatorApi.Interfaces
 {
-    public interface CalculatorServiceInterface<T>
+    public interface ICalculatorService<T>
     {
         T Add(T a, T b);
         T Subtract(T a, T b);
